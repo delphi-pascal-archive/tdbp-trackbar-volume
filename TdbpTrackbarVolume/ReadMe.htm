@@ -1,0 +1,52 @@
+<pre>
+<img src="dbpTrackbarvolume.bmp" alt="dbpTrackBarVolume">
+################################################################################
+# DBPTRACKBARVOLUME                                                            #
+################################################################################
+#                                                                              #
+# VERSION       : 0.2                                                          #
+# FICHIERS      : dbpTrackBarVolume.pas,.dcu,.dcr,.bmp,ReadMe.htm              #
+# AUTEUR        : Julio P. (Diabloporc)                                        #
+# CREATION      : 29 aou 2008                                                  #
+# MODIFIEE      : 05 sep 2008                                                  #
+# SITE WEB      : http://diabloporc.free.fr                                    #
+# MAIL          : juliobosk@gmail.com                                          #
+# LEGAL         : Free sous Licence GNU/GPL                                    #
+# INFOS         : Retrouvez moi sur www.delphifr.com : "JulioDelphi"           #
+#                 Lisez le ReadMe.htm !                                        #
+#                                                                              #
+################################################################################
+ Hello :) ceci est mon 18eme(?) composant réalisé sous delphi 7
+
+ dbpTrackBarVolume sert à modifier (ou pas) le volume de votre choix sur ce PC.
+
+ Types :
+ =======
+ TPrecision : Sert à selectionner le MAX de la trackbar.
+                Grande,     //65353 ticks
+                Normale,    //100 ticks (1% le tick)
+                Petite,     //10 ticks (10% le tick)
+                TresPetite, //4 ticks (25% le tick)
+                Perso       // vous pouvez choisir le MAX
+
+ TMixerLineComponentType : Quel Mixer le composant doit-il lire ? la liste est à compléter !
+
+ Propriétés :
+ ============
+  - About : bah ... mon About tout simple :)
+  - Description : le TMixerLineComponentType en string
+  - Pourcent : A combien de pourcent est le voulme actuel. (lecture seule)
+  - Min est maintenant en lecture seule à 0.
+  - MixerLineType : TMixerLineComponentType
+  - Mute : mettre le son du mixer actuel sur mute ou pas.
+  - Name : nom du l'occurence du composant ;p
+  - Precision : TPrecision
+  - Tag : le tag :)
+  - TCheckboxMute : Possibilité de mettre une checkbox afin que le MUTE soit automatiquement rempli
+  - TLabel : Possibilité de mettre un label qui contiendra par exemple "90 %" dans con caption.
+
+################################################################################
+#                     Composant libre sous license GNU/GPL                     #
+################################################################################
+eof
+</pre>
